@@ -16,6 +16,7 @@ const EnterMessage = () => {
         text: inputValue
       })
     );
+    setInputValue('');
   };
 
   return (
