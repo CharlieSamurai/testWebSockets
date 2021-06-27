@@ -1,6 +1,11 @@
+import MainPage from './components/MainPage/MainPage';
+import WebSocketContext from './contexts/WebSocketContext';
+
 function App() {
   return (
-<h1>Test</h1>
+    <WebSocketContext>
+      <MainPage />
+    </WebSocketContext>
   );
 }
 

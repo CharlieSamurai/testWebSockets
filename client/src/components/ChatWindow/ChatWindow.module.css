@@ -1,0 +1,9 @@
+.chat {
+  width: 80%;
+  height: 50%;
+  border: 2px solid black;
+}
+
+.item {
+  color: pink;
+}
